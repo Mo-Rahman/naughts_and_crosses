@@ -1,0 +1,48 @@
+/* The very basis CSS reset to remove browser styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.game-container {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  text-shadow: 2px 2px red;
+}
+
+h1 {
+  padding: 2rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 450px;
+  margin: auto;
+  padding-bottom: 20px;
+
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 150px;
+  width: 150px;
+  border: 2px solid;
+  font-size: 4rem;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 0.25rem;
+}
